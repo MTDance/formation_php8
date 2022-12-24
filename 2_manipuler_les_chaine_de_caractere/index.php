@@ -22,7 +22,7 @@
         // Remplacer une partie de la chaîne
         $chaine = str_replace('Ceci', 'Celà',$chaine);
 
-        var_dump(strpos($chaine, "Le"));
+        var_dump(str_contains($chaine, 'brouette'));
     ?>
 </body>
 </html>
